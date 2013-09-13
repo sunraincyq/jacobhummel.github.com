@@ -2,31 +2,43 @@
 
 	<head>
 		<title>Jacob Hummel</title>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  
+		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 	</head>
 
 	<body>
+
 		<div class="navbar">
   			<div class="navbar-inner">
-    			<ul class="nav">
-      				<li><a href="index.html"><i class="icon-home navicon"></i></a></li>
-      				<li><a href="about.html">About</a></li>
-      				<li><a href="projects.html">Projects</a></li>
-      				<li class="active"><a href="resume.html">Resume</a></li>
+    			<ul class="nav nav-pills">
+      				<li><a href="index.html">home</a></li>
+      				<li><a href="skills.html">skills</a></li>
+      				<li><a href="projects.html">projects</a></li>
+      				<li class="active"><a href="resume.html">r&eacute;sum&eacute;</a></li>
     			</ul>
   			</div>
 		</div>
 
-		<div id="resume" class="container">
+		<div id="resume" class="content">
 			<div class="btn">Download&nbspPDF</div>
 			<img src="img/jacobhummel_resume.png" />
 		</div>
 
 		<br /><br /><br />
-		
-		<script type="text/javascript" src="js/boostrap.min.js"></script>
+
+	
+	<script type="text/javascript" src="js/index.js"></script>
+
+	<div id="leftArrow" onClick="directions();">
+		<i class="icon-angle-left icon-4x"></i>
+	</div>
+
+	<div id="rightArrow" onClick="directions();">
+		<i class="icon-angle-right icon-4x"></i>
+	</div>
 	</body>
 
 </html>
