@@ -76,7 +76,7 @@ if (window.jQuery)
                 $minuses.text("+");
 
                 var $body = $($(this).attr('href'));
-                if (".in")
+                if (!$body.hasClass(".in"))
                 {
                     $indicator.removeClass('plus');
                     $indicator.addClass('minus');
