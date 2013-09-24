@@ -8,10 +8,16 @@ html
 
 body {
 	color: black;
-	background-image: url('../img/tiles/dust.png');
+	background: #f2f2f2;
+	/*background-image: url('../img/tiles/dust.png');*/
 	height: 100%;
+	font-size: 1em;
 }
 
+h2
+{
+	color: #222222;
+}
 
 .navbar .nav,
 .navbar .nav > li {
@@ -22,6 +28,14 @@ body {
 	font-size: 18px;
 	line-height: 40px;
 	font-weight: 550;
+}
+
+.navbar .nav>li>a {
+color: #3c3c3c;
+}
+
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+color: #222222;
 }
 
 .navbar-inner {
@@ -49,7 +63,7 @@ body {
 	width: 100%;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	color: #777777;
+	color: #222222;
 	font-size: 65px;
 	position: relative;
     line-height: 70px;
@@ -74,7 +88,7 @@ body {
 }
 
 #bio-summary a:link, a:visited, a:active {
-    color: #777777;
+    color: #222222;
 }
 
 #bio-summary a:hover {
@@ -123,7 +137,7 @@ body {
 {
 	width: 100%;
 	font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
-	color: #777777;
+	color: #222222;
 	position: relative;
     line-height: 60px;
     margin: auto;
